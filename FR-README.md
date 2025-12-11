@@ -56,7 +56,7 @@ pcbiy/
  
  └── research/          # Expérimentation, données, résultats de tests
 
-** 🧩 Trajectoire**
+**🧩 Trajectoire**
 
 **V1 — Semi-Automatisée (actuelle)**
 
