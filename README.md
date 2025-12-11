@@ -9,6 +9,7 @@ This is **V1** of the project. The machine performs all motion and machining ste
 **🚀 Features (V1)**
 
 **🌀 Fabrication**
+
 	•	High-precision isolation milling
 	•	Automated via drilling
 	•	Automated via riveting (mechanical micro-rivets)
@@ -16,11 +17,13 @@ This is **V1** of the project. The machine performs all motion and machining ste
 	•	Auto-height probing for consistent milling depth
 
 **🔧 User Interaction (Semi-Automatic)**
+
 	•	Manual tool changes (unscrew / screw in new bit)
 	•	Machine pauses and guides tool change process
 	•	Visual indicators and planned UI prompts
 **
 ⚙️ Electronics & Control**
+
 	•	Closed-loop or high-accuracy stepper motion system
 	•	Spindle motor with speed control
 	•	Toolpath generation for Gerber inputs
@@ -29,40 +32,53 @@ This is **V1** of the project. The machine performs all motion and machining ste
 ⸻
 
 **🎯 Project Goals**
+
 	•	Enable affordable, accurate, and fast PCB prototyping at home
 	•	Minimize chemical processes
 	•	Provide a solid foundation for future versions (V2 with ATC ?, V3 with fully automated soldermask?)
 	•	Open-source the entire stack: hardware, firmware, control software
 
 **📁 Repository Structure (Planned)**
+
   pcbiy/
+  
  ├── docs/              # Overview, diagrams, research notes
+
  ├── mechanics/         # CAD files, STL, STEP, BOM
+ 
  ├── electronics/       # Schematics, PCB designs
+ 
  ├── firmware/          # MCU firmware for motion and I/O
+ 
  ├── ui/                # Web/desktop control interface
+ 
  ├── toolpath/          # CAM pipeline, Gerber to G-code
+ 
  └── research/          # Experiments, data, testing results
 
 ** 🧩 Roadmap**
 
 **V1 — Semi-Automated (current)**
+
 	•	Manual tool changes
 	•	Isolation milling + drilling + vias
 	•	Assisted soldermask
 	•	Basic UI & firmware
 
 **V2 — Highly Automated**
+
 	•	Automatic tool changer
 	•	TBD
 
 **V3 — Fully Integrated Workflow**
+
 	•	“Start → finished PCB” workflow
 	•	TBD
 
 ⸻
 
 **🧪 Current Status**
+
 	•	Project still being defined
 
 ⸻
