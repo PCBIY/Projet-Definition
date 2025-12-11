@@ -22,8 +22,7 @@ Il s’agit de la version **V1** du projet.La machine exécute automatiquement t
 	•	La machine s’arrête et guide l’utilisateur lors des changements
 	•	Indicateurs visuels et messages prévus dans l’interface
 
-**
-⚙️ Électronique & Contrôle**
+**⚙️ Électronique & Contrôle**
 
 	•	Système de mouvement précis (pas à pas ou boucle fermée)
 	•	Broche à vitesse contrôlée
